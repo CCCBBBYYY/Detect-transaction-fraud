@@ -5,6 +5,6 @@
 With the continuous growth of social and economic development, the consumption level of residents has been substantially improved. Bank cards are becoming increasingly popular in the age of big data, as people’s purchasing habits change. Because there is a risk of transaction fraud, it is critical to efficiently identify fraud and implement appropriate countermeasures in a timely manner. This dissertation makes exploratory data analysis of 590,540 cardholder transaction behavior data and builds three machine learning models to detect transaction fraud. First, histograms and line charts of many features are generated based on the two types of transaction data to assess the difference between the two transaction behaviors. To choose the key features, the filtering method is used to perform feature engineering to select important features, and categorical features are vectorized. The data set is divided into training set, validation set and test set, and the training data is balanced using random undersampling. The logistic regression model, XGBoost model, and LGBM model are established respectively. The AUC on the validation set is the primary metric used to evaluate the model. In terms of prediction effect and running speed, the LGBM model outperforms the other two models. Finally, the best model is tested using the test set, and the AUC reaches 94.86%.
 
 ### EDA部分的代码
-https://www.kaggle.com/code/cccbby/fraud-complete-eda
+https://www.kaggle.com/code/cccbby/fraud-eda
 ### 模型建立与预测部分的代码
 https://www.kaggle.com/code/cccbby/fraud-models
